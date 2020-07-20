@@ -43,3 +43,9 @@ section {
     font-size: 4rem;
     letter-spacing: 0.05em;
 }
+
+.pro-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
