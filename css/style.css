@@ -36,10 +36,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding-top: 120px;
 }
 
+.pro-box {
+    display: flex;
+    justify-content: space-between;;
+    align-items: center;
+    padding-top: 50px;
+}
+
 .pro-img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
+    margin-right: 100px;
+}
+
+.pro-list {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pro-list-item {
+    list-style: none;
+    text-align: right;
 }
