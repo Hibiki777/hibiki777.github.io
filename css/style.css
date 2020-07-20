@@ -89,3 +89,16 @@ section {
     align-items: center;
     flex-direction: column;
 }
+
+#contact {
+    margin: 2rem 0 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.con-box li {
+    margin: 3rem;
+    list-style: none;
+}
