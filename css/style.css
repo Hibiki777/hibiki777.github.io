@@ -31,14 +31,6 @@
     padding: 1rem;
 }
 
-section {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 5rem;
-}
-
 .profile {
     font-size: 4rem;
     letter-spacing: 0.05em;
