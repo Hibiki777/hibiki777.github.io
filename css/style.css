@@ -70,25 +70,20 @@ section {
 
 
 #works {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 125px;
 }
 
 .wor-box {
-    padding-top: 50px;
-}
-
-.wor-list {
     display: flex;
     align-content: space-between;
 }
 
 .wor-list-item {
-    list-style: none;
-    margin: 2rem;
+    margin: 2rem 2rem 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
