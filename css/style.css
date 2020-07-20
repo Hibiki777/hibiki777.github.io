@@ -1,0 +1,32 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 14pt;
+    font-feature-settings: "palt";
+}
+
+.global-nav {
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+
+    position: fixed;
+    background: #fff;
+    width: 100%;  /*浮いてる、親とサイズが違うからbodyと同じ大きさにしたい*/
+}
+.global-nav h1 {
+    flex: 1;
+}
+.global-nav ul {
+    list-style: none;    /*・を消す*/
+    display: flex;
+}
+.global-nav ul li {
+    padding: 1rem;
+}
