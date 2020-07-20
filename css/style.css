@@ -31,12 +31,15 @@
     padding: 1rem;
 }
 
-.profile {
-    font-size: 4rem;
-    letter-spacing: 0.05em;
+#profile {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
 }
 
 .pro-img {
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 200px;
 }
