@@ -31,6 +31,10 @@
     padding: 1rem;
 }
 
+.global-nav li a:hover {
+    color: seagreen;
+}
+
 #sec1 ,#sec2 {
     padding-top: 100px;
     height: 100vh;
