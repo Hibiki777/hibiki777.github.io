@@ -31,8 +31,18 @@
     padding: 1rem;
 }
 
-section {
-    padding-top: 50px;
+#sec1 {
+    padding-top: 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    color: white;
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 #profile {
